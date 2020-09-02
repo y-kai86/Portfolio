@@ -14,7 +14,7 @@
   height: 500px;
   width:70%;
   margin:0 auto;
-  background-color:silver;
+  // background-color:silver;
   &__top{
     font-size:60px;
     height: 80px;
@@ -28,6 +28,7 @@
       padding-left:20px;
     }
     &__name2{
+      font-size:25px;
       padding-left:160px;
     }
   }
@@ -38,6 +39,7 @@
       padding-left:20px;
     }
     &__birthday2{
+      font-size:25px;
       padding-left:100px;
     }
   }
@@ -48,17 +50,25 @@
       padding-left:20px;
     }
     &__birthplace2{
+      font-size:25px;
       padding-left:130px;
     }
   }
   &__Educational-background{
     display: flex;
     font-size:30px;
-    &__Educational-background1{
+    &__Educational-background{
       padding-left:20px;
     }
-    &__Educational-background2{
-      padding-left:100px;
+    &__Educational-background1{
+      &__1{
+        font-size:25px;
+        padding-left:80px;
+      }
+      &__2{
+        font-size:25px;
+        padding-left:80px;
+      }
     }
   }
 }
