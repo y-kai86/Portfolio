@@ -1,17 +1,28 @@
 .top{
-  // height: 500px;
-  // width: 100%;
+  height: 600px;
+  width: 100%;
   // background-color:silver;
-  &__item{
-    // height:200px;
-    // width:100%;
-  }
-  &__title{
-    font-size:30px;
+  &__12{
+    position: relative;
+    &__item{
+      // height:200px;
+      // width:100%;
+      // .resizeimage img { width: 100%; }
+      // max-width: 100%;
+      // height: auto;
+    }
+    &__title{
+      position: absolute;
+      top: 300px;
+      color: darkred;
+      padding: 15px;
+      font-size: 40px;
+      line-height: 130%;
+    }
   }
 }
 .main{
-  height: 500px;
+  height: 2000px;
   width:70%;
   margin:0 auto;
   // background-color:silver;
@@ -70,6 +81,71 @@
         padding-left:80px;
       }
     }
+  }
+  &__skill{
+    height: 1200px;
+    width:100%;
+    margin-top:100px;
+    &__s-top{
+      font-size:60px;
+      height: 80px;
+      width:250px;
+      margin: 0 auto;
+    }
+    &__3{
+      height: 350px;
+      margin-top: 50px;
+      display: flex;
+      &__front{
+        width: 420px;
+        font-size:30px;
+        &__mozi1{
+          font-size:20px;
+        }
+        &__mozi2{
+          font-size:20px;
+        }
+      }
+      &__server{
+        width: 420px;
+        font-size:30px;
+        margin-left: 100px;
+        &__mozi3{
+          font-size:20px;
+        }
+        &__mozi4{
+          font-size:20px;
+        }
+      }
+    }
+    &__4{
+      height: 350px;
+      display: flex;
+      &__db{
+        font-size:30px;
+      }
+      &__infrastructure-server{
+        font-size:30px;
+        margin-left: 405px;
+      }
+    }
+    &__5{
+      height: 350px;
+      display: flex;
+      &__other-tools{
+        font-size:30px;
+      }
+      &__qualification{
+        font-size:30px;
+        margin-left: 270px;
+      }
+    }
+  }
+  &__portfolio{
+    font-size:60px;
+    height: 80px;
+    width:250px;
+    margin: 0 auto;
   }
 }
 .footer{

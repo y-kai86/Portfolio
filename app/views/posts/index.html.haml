@@ -1,9 +1,12 @@
 .top
-  .top__item
-    -# = image_tag "img_0148.jpg",size: "100 × 300"
-    = image_tag "img_0148.jpg", size: "500 x 100"
-  .top__title
-    Portfolio
+  .top__12
+    .top__12__item
+      = image_tag "pattern_54.jpg", size: "610 x 360"
+      -# = image_tag "img_0148.jpg", size: "500 x 100"
+    .top__12__title
+      -# = image_tag "white_00060.jpg",size: "100 × 300"
+      Portfolio
+
 .main
   .main__top
     PROFILE
@@ -30,6 +33,36 @@
         高校：高千穂高校（2008/4〜2011/3）
       .main__Educational-background__Educational-background1__2
         専門学校：福岡医健専門学校（2011/4〜2015/3）
+  .main__skill
+    .main__skill__s-top
+      スキル
+    .main__skill__3
+      .main__skill__3__front
+        フロントエンドサイド
+        .main__skill__3__front__mozi1
+          基本的にはスクールと独学で学びました。
+        .main__skill__3__front__mozi2
+          技術  経験年数  スキル
+        .main__skill__3__front
+      .main__skill__3__server
+        サーバーサイド
+        .main__skill__3__server__mozi3
+          基本的にはスクールと独学で学びました。
+        .main__skill__3__server__mozi4
+          技術  経験年数  スキル
+        .main__skill__3__server
+    .main__skill__4
+      .main__skill__4__db
+        DB
+      .main__skill__4__infrastructure-server
+        インフラ・サーバー
+    .main__skill__5
+      .main__skill__5__other-tools
+        その他ツール
+      .main__skill__5__qualification
+        保有資格
+  .main__portfolio
+    成果物
 .footer
   = link_to "https://twitter.com/@kaikai492", class: "footer__btn" do
     Twitter
