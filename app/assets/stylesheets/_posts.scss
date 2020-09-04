@@ -92,32 +92,94 @@
       width:250px;
       margin: 0 auto;
     }
-    &__3{
+    &__s-main{
       height: 350px;
       margin-top: 50px;
       display: flex;
       &__front{
-        width: 420px;
-        font-size:30px;
-        &__mozi1{
-          font-size:20px;
+        &__f-top{
         }
-        &__mozi2{
-          font-size:20px;
+        &__f-mozi{
+        }
+        &__f-the-details{
+          display: flex;
+          &__f-technology{
+          }
+          &__f-experience{
+          }
+          &__f-skill{
+          }
+        }
+        &__f-s-html{
+          display: flex;
+          &__s-html{
+          }
+          &__html-experience{
+          }
+          &__html-skill{
+          }
+        }
+        &__f-s-css{
+          display: flex;
+          &__s-css{
+          }
+          &__css-experience{
+          }
+          &__css-skill{
+          }
+        }
+        &__f-s-js{
+          display: flex;
+          &__s-js{
+          }
+          &__js-experience{
+          }
+          &__js-skill{
+          }
         }
       }
       &__server{
-        width: 420px;
-        font-size:30px;
-        margin-left: 100px;
-        &__mozi3{
-          font-size:20px;
+        &__s-top{
         }
-        &__mozi4{
-          font-size:20px;
+        &__s-mozi{
+        }
+        &__s-the-details{
+          display: flex;
+          &__s-technology{
+          }
+          &__s-experience{
+          }
+          &__s-skill{
+          }
+        }
+        &__s-s-ruby{
+          display: flex;
+          &__s-ruby{
+          }
+          &__ruby-experience{
+          }
+          &__ruby-skill{
+          }
+        }
+        &__s-s-rails{
+          display: flex;
+          &__s-rails{
+          }
+          &__rails-experience{
+          }
+          &__rails-skill{
+          }
         }
       }
     }
+
+
+
+
+
+
+
+    
     &__4{
       height: 350px;
       display: flex;
