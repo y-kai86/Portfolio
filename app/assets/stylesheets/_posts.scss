@@ -1,220 +1,357 @@
-.top{
-  height: 600px;
-  width: 100%;
-  // background-color:silver;
-  &__12{
-    position: relative;
-    &__item{
-      // height:200px;
-      // width:100%;
-      // .resizeimage img { width: 100%; }
-      // max-width: 100%;
-      // height: auto;
-    }
-    &__title{
-      position: absolute;
-      top: 300px;
-      color: darkred;
-      padding: 15px;
-      font-size: 40px;
-      line-height: 130%;
-    }
-  }
-}
-.main{
-  height: 2000px;
-  width:70%;
-  margin:0 auto;
-  // background-color:silver;
-  &__top{
-    font-size:60px;
-    height: 80px;
-    width:250px;
-    margin: 0 auto;
-  }
-  &__name{
-    display: flex;
-    font-size:30px;
-    &__name1{
-      padding-left:20px;
-    }
-    &__name2{
-      font-size:25px;
-      padding-left:160px;
-    }
-  }
-  &__birthday{
-    display: flex;
-    font-size:30px;
-    &__birthday1{
-      padding-left:20px;
-    }
-    &__birthday2{
-      font-size:25px;
-      padding-left:100px;
-    }
-  }
-  &__birthplace{
-    display: flex;
-    font-size:30px;
-    &__birthplace1{
-      padding-left:20px;
-    }
-    &__birthplace2{
-      font-size:25px;
-      padding-left:130px;
-    }
-  }
-  &__Educational-background{
-    display: flex;
-    font-size:30px;
-    &__Educational-background{
-      padding-left:20px;
-    }
-    &__Educational-background1{
-      &__1{
-        font-size:25px;
-        padding-left:80px;
+.all{
+  background-color:#dcdcdc;
+  .top{
+    height: 600px;
+    width: 100%;
+    &__12{
+      position: relative;
+      &__item{
+        // height:200px;
+        // width:100%;
+        // .resizeimage img { width: 100%; }
+        // max-width: 100%;
+        // height: auto;
       }
-      &__2{
-        font-size:25px;
-        padding-left:80px;
+      &__title{
+        position: absolute;
+        top: 300px;
+        color: darkred;
+        padding: 15px;
+        font-size: 40px;
+        line-height: 130%;
       }
     }
   }
-  &__skill{
-    height: 1200px;
-    width:100%;
-    margin-top:100px;
-    &__s-top{
+  .main{
+    height: 2500px;
+    width:60%;
+    margin:0 auto;
+    &__top{
       font-size:60px;
       height: 80px;
       width:250px;
       margin: 0 auto;
     }
-    &__s-main{
-      height: 350px;
-      margin-top: 50px;
+    &__name{
       display: flex;
-      &__front{
-        &__f-top{
+      font-size:30px;
+      &__name1{
+        padding-left:20px;
+      }
+      &__name2{
+        font-size:25px;
+        padding-left:160px;
+      }
+    }
+    &__birthday{
+      display: flex;
+      font-size:30px;
+      &__birthday1{
+        padding-left:20px;
+      }
+      &__birthday2{
+        font-size:25px;
+        padding-left:100px;
+      }
+    }
+    &__birthplace{
+      display: flex;
+      font-size:30px;
+      &__birthplace1{
+        padding-left:20px;
+      }
+      &__birthplace2{
+        font-size:25px;
+        padding-left:130px;
+      }
+    }
+    &__Educational-background{
+      display: flex;
+      font-size:30px;
+      &__Educational-background{
+        padding-left:20px;
+      }
+      &__Educational-background1{
+        &__1{
+          font-size:25px;
+          padding-left:80px;
         }
-        &__f-mozi{
+        &__2{
+          font-size:25px;
+          padding-left:80px;
         }
-        &__f-the-details{
-          display: flex;
-          &__f-technology{
+      }
+    }
+    &__skill{
+      height: 1500px;
+      width:100%;
+      margin-top:100px;
+      &__s-top{
+        font-size:60px;
+        height: 80px;
+        width:250px;
+        margin: 0 auto;
+      }
+      &__s-main{
+        height: 350px;
+        margin-top: 50px;
+        display: flex;
+        &__front{
+          background-color: #ffffff;
+          margin-left: 40px;
+          &__f-top{
+            font-size: 30px;
           }
-          &__f-experience{
+          &__f-mozi{
+            font-size:18px;
           }
-          &__f-skill{
+          &__f-the-details{
+            font-size:20px;
+            display: flex;
+            &__f-technology{
+            }
+            &__f-experience{
+            }
+            &__f-skill{
+            }
+          }
+          &__f-s-html{
+            font-size:20px;
+            display: flex;
+            &__s-html{
+            }
+            &__html-experience{
+            }
+            &__html-skill{
+            }
+          }
+          &__f-s-css{
+            font-size:20px;
+            display: flex;
+            &__s-css{
+            }
+            &__css-experience{
+            }
+            &__css-skill{
+            }
+          }
+          &__f-s-js{
+            font-size:20px;
+            display: flex;
+            &__s-js{
+            }
+            &__js-experience{
+            }
+            &__js-skill{
+            }
           }
         }
-        &__f-s-html{
-          display: flex;
-          &__s-html{
+        &__server{
+          background-color: #ffffff;
+          margin-left: 250px;
+          &__s-top{
+            font-size: 30px;
           }
-          &__html-experience{
+          &__s-mozi{
+            font-size:18px;
           }
-          &__html-skill{
+          &__s-the-details{
+            font-size:20px;
+            display: flex;
+            &__s-technology{
+            }
+            &__s-experience{
+            }
+            &__s-skill{
+            }
           }
-        }
-        &__f-s-css{
-          display: flex;
-          &__s-css{
+          &__s-s-ruby{
+            font-size:20px;
+            display: flex;
+            &__s-ruby{
+            }
+            &__ruby-experience{
+            }
+            &__ruby-skill{
+            }
           }
-          &__css-experience{
-          }
-          &__css-skill{
-          }
-        }
-        &__f-s-js{
-          display: flex;
-          &__s-js{
-          }
-          &__js-experience{
-          }
-          &__js-skill{
+          &__s-s-rails{
+            font-size:20px;
+            display: flex;
+            &__s-rails{
+            }
+            &__rails-experience{
+            }
+            &__rails-skill{
+            }
           }
         }
       }
-      &__server{
-        &__s-top{
+      &__s-main2{
+        height: 350px;
+        margin-top: 50px;
+        display: flex;
+        &__db{
+          background-color: #ffffff;
+          margin-left: 40px;
+          &__db-top{
+            font-size: 30px;
+          }
+          &__db-mozi{
+            font-size:18px;
+          }
+          &__db-the-details{
+            font-size:20px;
+            display: flex;
+            &__db-technology{
+            }
+            &__db-experience{
+            }
+            &__db-skill{
+            }
+          }
+          &__db-db-mysql{
+            font-size:20px;
+            display: flex;
+            &__db-mysql{
+            }
+            &__mysql-experience{
+            }
+            &__mysql-skill{
+            }
+          }
         }
-        &__s-mozi{
+        &__infrastructure-server{
+          background-color: #ffffff;
+          margin-left: 300px;
+          &__is-top{
+            font-size: 30px;
+          }
+          &__is-mozi{
+            font-size:18px;
+          }
+          &__is-the-details{
+            font-size:20px;
+            display: flex;
+            &__is-technology{
+            }
+            &__is-experience{
+            }
+            &__is-skill{
+            }
+          }
+          &__is-is-aws{
+            font-size:20px;
+            display: flex;
+            &__is-aws{
+            }
+            &__aws-experience{
+            }
+            &__aws-skill{
+            }
+          }
         }
-        &__s-the-details{
-          display: flex;
-          &__s-technology{
+      }
+      &__s-main3{
+        height: 350px;
+        margin-top: 50px;
+        display: flex;
+        &__other-tools{
+          background-color: #ffffff;
+          margin-left: 40px;
+          &__ot-top{
+            font-size: 30px;
           }
-          &__s-experience{
+          &__ot-mozi{
+            font-size:18px;
           }
-          &__s-skill{
+          &__ot-the-details{
+            font-size:20px;
+            display: flex;
+            &__ot-technology{
+            }
+            &__ot-experience{
+            }
+            &__ot-skill{
+            }
+          }
+          &__ot-ot-git{
+            font-size:20px;
+            display: flex;
+            &__ot-git{
+            }
+            &__ot-experience{
+            }
+            &__ot-skill{
+            }
+          }
+          &__ot-ot-slack{
+            font-size:20px;
+            display: flex;
+            &__ot-slack{
+            }
+            &__slack-experience{
+            }
+            &__slack-skill{
+            }
           }
         }
-        &__s-s-ruby{
-          display: flex;
-          &__s-ruby{
+        &__qualification{
+          background-color: #ffffff;
+          margin-left: 290px;
+          &__qf-top{
+            font-size: 30px;
           }
-          &__ruby-experience{
+          &__qf-mozi{
+            font-size:18px;
           }
-          &__ruby-skill{
+          &__qf-the-details{
+            font-size:20px;
+            display: flex;
+            &__qf-technology{
+            }
+            &__qf-experience{
+            }
           }
-        }
-        &__s-s-rails{
-          display: flex;
-          &__s-rails{
+          &__qf-qf-car{
+            font-size:20px;
+            display: flex;
+            &__qf-car{
+            }
+            &__car-experience{
+            }
           }
-          &__rails-experience{
+          &__qf-qf-acupuncturist{
+            font-size:20px;
+            display: flex;
+            &__qf-acupuncturist{
+            }
+            &__acupuncturist-experience{
+            }
           }
-          &__rails-skill{
+          &__qf-qf-kyu{
+            font-size:20px;
+            display: flex;
+            &__qf-kyu{
+            }
+            &__kyu-experience{
+            }
           }
         }
       }
     }
-
-
-
-
-
-
-
-    
-    &__4{
-      height: 350px;
-      display: flex;
-      &__db{
-        font-size:30px;
-      }
-      &__infrastructure-server{
-        font-size:30px;
-        margin-left: 405px;
-      }
-    }
-    &__5{
-      height: 350px;
-      display: flex;
-      &__other-tools{
-        font-size:30px;
-      }
-      &__qualification{
-        font-size:30px;
-        margin-left: 270px;
-      }
+    &__portfolio{
+      font-size:60px;
+      height: 80px;
+      width:250px;
+      margin: 0 auto;
     }
   }
-  &__portfolio{
-    font-size:60px;
-    height: 80px;
-    width:250px;
-    margin: 0 auto;
-  }
-}
-.footer{
-  height: 150px;
-  width: 100%;
-  background-color:silver;
-  &__btn{
-    font-size:20px;
+  .footer{
+    height: 150px;
+    width: 100%;
+    &__btn{
+      font-size:20px;
+    }
   }
 }
