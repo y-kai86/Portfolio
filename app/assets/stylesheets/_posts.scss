@@ -83,7 +83,7 @@
       }
     }
     &__skill{
-      height: 1500px;
+      height: 1600px;
       width:100%;
       margin-top:100px;
       &__s-top{
@@ -97,8 +97,10 @@
         margin-top: 50px;
         display: flex;
         &__front{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
-          margin-left: 40px;
+          // margin-left: 40px;
           &__f-top{
             font-size: 30px;
           }
@@ -147,6 +149,8 @@
           }
         }
         &__server{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
           margin-left: 250px;
           &__s-top{
@@ -189,9 +193,11 @@
       }
       &__s-main2{
         height: 350px;
-        margin-top: 50px;
+        margin-top: 150px;
         display: flex;
         &__db{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
           margin-left: 40px;
           &__db-top{
@@ -222,6 +228,8 @@
           }
         }
         &__infrastructure-server{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
           margin-left: 300px;
           &__is-top{
@@ -254,9 +262,11 @@
       }
       &__s-main3{
         height: 350px;
-        margin-top: 50px;
+        margin-top: 150px;
         display: flex;
         &__other-tools{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
           margin-left: 40px;
           &__ot-top{
@@ -297,6 +307,8 @@
           }
         }
         &__qualification{
+          height: 400px;
+          width: 400px;
           background-color: #ffffff;
           margin-left: 290px;
           &__qf-top{
