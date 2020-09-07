@@ -2,11 +2,9 @@
   .top
     .top__12
       .top__12__item
-        = image_tag "pattern_54.jpg", size: "610 x 360"
-        -# = image_tag "img_0148.jpg", size: "500 x 100"
+        = image_tag "pattern_54.jpg", size: "1791x600"
       .top__12__title
-        -# = image_tag "white_00060.jpg",size: "100 × 300"
-        Portfolio
+        Yuta  Kai  Portfolio
 
   .main
     .main__top
@@ -36,7 +34,7 @@
           専門学校：福岡医健専門学校（2011/4〜2015/3）
     .main__skill
       .main__skill__s-top
-        スキル
+        SKLL
       .main__skill__s-main
         .main__skill__s-main__front
           .main__skill__s-main__front__f-top
@@ -188,12 +186,41 @@
               きゅう師
             .main__skill__s-main3__qualification__qf-qf-kyu__kyu-experience
               2015年3月
-
-
-
-
     .main__portfolio
-      成果物
+      .main__portfolio__p-top
+        成果物
+      .main__portfolio__p-main
+        .main__portfolio__p-main__chatspace
+          = image_tag "08e5ca73592a2ef1f4c7bb25cf9b33b5.png", size: "300x200"
+          .main__portfolio__p-main__chatspace__cs-title
+            chatspace
+          .main__portfolio__p-main__chatspace__cs-point
+            プログラミングスクールのカリキュラムで作成したチャットアプリです。
+          .main__portfolio__p-main__chatspace__cs-productionperiod
+            制作期間：2週間
+        .main__portfolio__p-main__freemarket
+          = image_tag "b978735a48b25191f614cf6463198165.jpg", size: "300x200"
+          .main__portfolio__p-main__freemarket__fm-title
+            FreemarketSample70f
+          .main__portfolio__p-main__freemarket__fm-point
+            プログラミングスクールのカリキュラムでチーム開発しました。ECサイトのクローンアプリです。
+          .main__portfolio__p-main__freemarket__fm-productionperiod
+            制作期間：1ヶ月
+        .main__portfolio__p-main__my-portfolio
+          = image_tag "a023abce60f166fe17ebfcf80d1d7008.jpg", size: "300x200"
+          .main__portfolio__p-main__my-portfolio__my-pf-title
+            Portfolio
+          .main__portfolio__p-main__my-portfolio__my-pf-point
+            本サイトです。hamlで作成しました。
+          .main__portfolio__p-main__my-portfolio__my-pf--productionperiod
+            制作期間：５日
   .footer
-    = link_to "https://twitter.com/@kaikai492", class: "footer__btn" do
-      Twitter
+    .footer__f-title
+      お問い合わせ
+    .footer__ft-mozi
+      お問い合わせはTwitterのDMまでお願いいたします。
+    .footer__f-btn
+      = link_to "https://twitter.com/@kaikai492", class: "footer__f-btn__btn" do
+        Twitter
+      = link_to "https://github.com/y-kai86", class: "footer__f-btn__btn2" do
+        GitHub

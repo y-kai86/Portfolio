@@ -6,33 +6,32 @@
     &__12{
       position: relative;
       &__item{
-        // height:200px;
-        // width:100%;
-        // .resizeimage img { width: 100%; }
-        // max-width: 100%;
-        // height: auto;
+        height:600px;
+        width:100%;
       }
       &__title{
         position: absolute;
-        top: 300px;
-        color: darkred;
-        padding: 15px;
-        font-size: 40px;
-        line-height: 130%;
+        top: 250px;
+        color: #000000;
+        padding-left: 25%;
+        font-size: 100px;
+        // line-height: 130%;
       }
     }
   }
   .main{
-    height: 2500px;
-    width:60%;
+    height: 100%;
+    width:80%;
     margin:0 auto;
     &__top{
       font-size:60px;
       height: 80px;
       width:250px;
       margin: 0 auto;
+      margin-bottom: 20px;
     }
     &__name{
+      margin-left: 300px;
       display: flex;
       font-size:30px;
       &__name1{
@@ -44,6 +43,7 @@
       }
     }
     &__birthday{
+      margin-left: 300px;
       display: flex;
       font-size:30px;
       &__birthday1{
@@ -55,6 +55,7 @@
       }
     }
     &__birthplace{
+      margin-left: 300px;
       display: flex;
       font-size:30px;
       &__birthplace1{
@@ -66,6 +67,7 @@
       }
     }
     &__Educational-background{
+      margin-left: 300px;
       display: flex;
       font-size:30px;
       &__Educational-background{
@@ -95,56 +97,76 @@
       &__s-main{
         height: 350px;
         margin-top: 50px;
+        margin-left: 150px;
         display: flex;
         &__front{
           height: 400px;
           width: 400px;
           background-color: #ffffff;
-          // margin-left: 40px;
           &__f-top{
             font-size: 30px;
+            padding-left: 40px;
+            margin-top: 20px;
           }
           &__f-mozi{
             font-size:18px;
+            padding-left: 25px;
+            margin-top: 20px;
           }
           &__f-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__f-technology{
+              padding-left: 20px;
             }
             &__f-experience{
+              padding-left: 70px;
             }
             &__f-skill{
+              padding-left: 60px;
             }
           }
           &__f-s-html{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-html{
+              padding-left: 10px;
             }
             &__html-experience{
+              padding-left: 70px;
             }
             &__html-skill{
+              padding-left: 50px;
             }
           }
           &__f-s-css{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-css{
+              padding-left: 16px;
             }
             &__css-experience{
+              padding-left: 80px;
             }
             &__css-skill{
+              padding-left: 50px;
             }
           }
           &__f-s-js{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-js{
+              padding-left: 2px;
             }
             &__js-experience{
+              padding-left: 33px;
             }
             &__js-skill{
+              padding-left: 48px;
             }
           }
         }
@@ -155,38 +177,53 @@
           margin-left: 250px;
           &__s-top{
             font-size: 30px;
+            margin-top: 20px;
+            padding-left: 80px;
           }
           &__s-mozi{
             font-size:18px;
+            margin-top: 20px;
+            padding-left: 25px;
           }
           &__s-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-technology{
+              padding-left: 20px;
             }
             &__s-experience{
+              padding-left: 70px;
             }
             &__s-skill{
+              padding-left: 60px;
             }
           }
           &__s-s-ruby{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-ruby{
+              padding-left: 10px;
             }
             &__ruby-experience{
+              padding-left: 80px;
             }
             &__ruby-skill{
+              padding-left: 50px;
             }
           }
           &__s-s-rails{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__s-rails{
             }
             &__rails-experience{
+              padding-left: 5px;
             }
             &__rails-skill{
+              padding-left: 50px;
             }
           }
         }
@@ -194,36 +231,48 @@
       &__s-main2{
         height: 350px;
         margin-top: 150px;
+        margin-left: 150px;
         display: flex;
         &__db{
           height: 400px;
           width: 400px;
           background-color: #ffffff;
-          margin-left: 40px;
           &__db-top{
             font-size: 30px;
+            margin-top: 20px;
+            padding-left: 160px;
           }
           &__db-mozi{
             font-size:18px;
+            margin-top: 20px;
+            padding-left: 55px;
           }
           &__db-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__db-technology{
+              padding-left: 20px;
             }
             &__db-experience{
+              padding-left: 70px;
             }
             &__db-skill{
+              padding-left: 60px;
             }
           }
           &__db-db-mysql{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__db-mysql{
+              padding-left: 10px;
             }
             &__mysql-experience{
+              padding-left: 75px;
             }
             &__mysql-skill{
+              padding-left: 50px;
             }
           }
         }
@@ -231,31 +280,43 @@
           height: 400px;
           width: 400px;
           background-color: #ffffff;
-          margin-left: 300px;
+          margin-left: 250px;
           &__is-top{
             font-size: 30px;
+            margin-top: 20px;
+            padding-left: 60px;
           }
           &__is-mozi{
             font-size:18px;
+            margin-top: 20px;
+            padding-left: 55px;
           }
           &__is-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__is-technology{
+              padding-left: 20px;
             }
             &__is-experience{
+              padding-left: 70px;
             }
             &__is-skill{
+              padding-left: 60px;
             }
           }
           &__is-is-aws{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__is-aws{
+              padding-left: 15px;
             }
             &__aws-experience{
+              padding-left: 85px;
             }
             &__aws-skill{
+              padding-left: 35px;
             }
           }
         }
@@ -263,46 +324,62 @@
       &__s-main3{
         height: 350px;
         margin-top: 150px;
+        margin-left: 150px;
         display: flex;
         &__other-tools{
           height: 400px;
           width: 400px;
           background-color: #ffffff;
-          margin-left: 40px;
           &__ot-top{
+            margin-top: 20px;
+            padding-left: 100px;
             font-size: 30px;
           }
           &__ot-mozi{
+            margin-top: 20px;
+            padding-left: 60px;
             font-size:18px;
           }
           &__ot-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__ot-technology{
+              padding-left: 20px;
             }
             &__ot-experience{
+              padding-left: 70px;
             }
             &__ot-skill{
+              padding-left: 60px;
             }
           }
           &__ot-ot-git{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__ot-git{
+              padding-left: 25px;
             }
             &__ot-experience{
+              padding-left: 90px;
             }
             &__ot-skill{
+              padding-left: 35px;
             }
           }
           &__ot-ot-slack{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__ot-slack{
+              padding-left: 15px;
             }
             &__slack-experience{
+              padding-left: 75px;
             }
             &__slack-skill{
+              padding-left: 35px;
             }
           }
         }
@@ -310,43 +387,59 @@
           height: 400px;
           width: 400px;
           background-color: #ffffff;
-          margin-left: 290px;
+          margin-left: 250px;
           &__qf-top{
+            margin-top: 20px;
+            padding-left: 130px;
             font-size: 30px;
           }
           &__qf-mozi{
+            margin-top: 20px;
+            padding-left: 80px;
             font-size:18px;
           }
           &__qf-the-details{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__qf-technology{
+              padding-left: 40px;
             }
             &__qf-experience{
+              padding-left: 140px;
             }
           }
           &__qf-qf-car{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__qf-car{
+              padding-left: 5px;
             }
             &__car-experience{
+              padding-left: 75px;
             }
           }
           &__qf-qf-acupuncturist{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__qf-acupuncturist{
+              padding-left: 50px;
             }
             &__acupuncturist-experience{
+              padding-left: 110px;
             }
           }
           &__qf-qf-kyu{
             font-size:20px;
+            margin-top: 20px;
             display: flex;
             &__qf-kyu{
+              padding-left: 40px;
             }
             &__kyu-experience{
+              padding-left: 100px;
             }
           }
         }
@@ -354,16 +447,113 @@
     }
     &__portfolio{
       font-size:60px;
-      height: 80px;
-      width:250px;
-      margin: 0 auto;
+      height: 700px;
+      width:100%;
+      &__p-top{
+        height: 100px;
+        width:100%;
+        font-size: 60px;
+        margin-top: 20px;
+        padding-left: 40%;
+      }
+      &__p-main{
+        height: 400px;
+        width:100%;
+        display: flex;
+        &__chatspace{
+          height: 400px;
+          width: 310px;
+          padding-left: 10px;
+          padding-top: 10px;
+          margin-left: 60px;
+          background-color: #ffffff;
+          &__cs-title{
+            font-size: 25px;
+            font-weight: 600;
+            padding-left: 70px;
+          }
+          &__cs-point{
+            margin-top: 10px;
+            font-size: 15px;
+          }
+          &__cs-productionperiod{
+            margin-top: 10px;
+            font-size: 5px;
+          }
+        }
+        &__freemarket{
+          height: 400px;
+          width: 310px;
+          padding-left: 10px;
+          padding-top: 10px;
+          margin-left: 160px;
+          background-color: #ffffff;
+          &__fm-title{
+            font-size: 25px;
+            font-weight: 600;
+          }
+          &__fm-point{
+            margin-top: 10px;
+            font-size: 15px;
+          }
+          &__fm-productionperiod{
+            margin-top: 10px;
+            font-size: 5px;
+          }
+        }
+        &__my-portfolio{
+          height: 400px;
+          width: 310px;
+          padding-left: 10px;
+          padding-top: 10px;
+          margin-left: 160px;
+          background-color: #ffffff;
+          &__my-pf-title{
+            font-size: 25px;
+            font-weight: 600;
+            padding-left: 90px;
+          }
+          &__my-pf-point{
+            margin-top: 10px;
+            font-size: 15px;
+          }
+          &__my-pf--productionperiod{
+            margin-top: 10px;
+            font-size: 5px;
+          }
+        }
+      }
     }
   }
   .footer{
-    height: 150px;
+    height: 300px;
     width: 100%;
-    &__btn{
+    margin-top: 50px;
+    background-color: #ffffff;
+    &__f-title{
+      font-size:60px;
+      height: 80px;
+      width:400px;
+      margin: 0 auto;
+    }
+    &__ft-mozi{
       font-size:20px;
+      height: 40px;
+      width:500px;
+      padding-top: 50px;
+      margin: 0 auto;
+    }
+    &__f-btn{
+      display: flex;
+      margin-top: 50px;
+      padding: 0 43%;
+      &__btn{
+        font-size:20px;
+      }
+      &__btn2{
+        font-size:20px;
+        padding-left: 50px;
+      }
     }
   }
 }
