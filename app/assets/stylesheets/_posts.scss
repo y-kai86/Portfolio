@@ -1,14 +1,14 @@
 .all{
   background-color:#dcdcdc;
-  height: 100%;
-  width: 100vw;
+
   .top{
-    height: 600px;
+    // height: 600px;
     // width: 100%;
     &__12{
       position: relative;
       &__item{
         height:600px;
+        width: 100%;
       }
       &__title{
         position: absolute;
