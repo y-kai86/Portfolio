@@ -1,15 +1,14 @@
 .all{
-  background-color:#dcdcdc;
-
+  // background-color:#dcdcdc;
   .top{
-    height:800px;
+    height:700px;
     width: 100vw;
     &__12{
       position: relative;
       &__item{
         // background-image: url('assets/images/pattern_54.jpg');
         width: 100vw;
-        height: 800px;
+        // height: 800px;
         // background-size: 100% 100%;
         // background-image: url("../images/pattern_54.jpg");
         // background-repeat: no-repeat;
@@ -121,6 +120,7 @@
           &__front{
             height: 400px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             &__f-top{
               font-size: 30px;
@@ -192,6 +192,7 @@
           &__server{
             height: 400px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             margin-left: 250px;
             &__s-top{
@@ -256,6 +257,7 @@
           &__db{
             height: 300px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             &__db-top{
               font-size: 30px;
@@ -299,6 +301,7 @@
           &__infrastructure-server{
             height: 300px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             margin-left: 250px;
             &__is-top{
@@ -350,6 +353,7 @@
           &__other-tools{
             height: 400px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             &__ot-top{
               margin-top: 20px;
@@ -407,6 +411,7 @@
           &__qualification{
             height: 400px;
             width: 400px;
+            border: 1px solid #000;
             background-color: #ffffff;
             margin-left: 250px;
             &__qf-top{
@@ -489,6 +494,7 @@
           padding: 10px;
           // padding-top: 10px;
           // margin-left: 60px;
+          border: 1px solid #000;
           background-color: #ffffff;
           &__cs-title{
             font-size: 25px;
@@ -510,6 +516,7 @@
           padding: 10px;
           // padding-top: 10px;
           margin-left: 100px;
+          border: 1px solid #000;
           background-color: #ffffff;
           &__fm-title{
             font-size: 25px;
@@ -530,6 +537,7 @@
           padding: 10px;
           // padding-top: 10px;
           margin-left: 100px;
+          border: 1px solid #000;
           background-color: #ffffff;
           &__my-pf-title{
             font-size: 25px;
