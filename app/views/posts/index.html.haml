@@ -2,9 +2,10 @@
   .top
     .top__12
       .top__12__item
-        -# = image_tag "images.jpg"
-        = image_tag "pattern_54.jpg", size: "1791x800"
+        -# = image_tag = asset_path("pattern_54.jpg")
         -# = image_tag "pattern_54.jpg", size: "1791x600"
+        -# = image_tag "pattern_54.jpg"
+        -# %img{:height => "130", :src => "pattern_54.jpg", :width => "100%"}/
       .top__12__title
         Yuta  Kai  Portfolio
   .main
