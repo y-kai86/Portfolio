@@ -509,6 +509,17 @@
             margin-top: 10px;
             font-size: 5px;
           }
+          &__cs-git{
+            display: flex;
+            margin-top: 10px;
+            &__g-btn{
+              font-size: 15px;
+            }
+            &__cs-s-btn{
+              font-size: 15px;
+              padding-left: 15px;
+            }
+          }
         }
         &__freemarket{
           height: 400px;
@@ -529,6 +540,17 @@
           &__fm-productionperiod{
             margin-top: 10px;
             font-size: 5px;
+          }
+          &__fm-git{
+            margin-top: 10px;
+            display: flex;
+            &__fm-btn{
+              font-size: 15px;
+            }
+            &__fm-s-btn{
+              font-size: 15px;
+              padding-left: 15px;
+            }
           }
         }
         &__my-portfolio{
