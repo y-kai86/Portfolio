@@ -1,19 +1,11 @@
 .all{
-  // background-color:#dcdcdc;
   .top{
     height:700px;
     width: 100vw;
     &__12{
       position: relative;
       &__item{
-        // background-image: url('assets/images/pattern_54.jpg');
         width: 100vw;
-        // height: 800px;
-        // background-size: 100% 100%;
-        // background-image: url("../images/pattern_54.jpg");
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
-        // background-clip: border-box;
         background-color: #fff;
       }
       &__title{
@@ -28,8 +20,6 @@
   }
   .main{
     height: 2500px;
-    // widows: 800px;
-    // margin:0 auto;
     &__m1{
       widows: 100vw;
       &__top{
@@ -112,9 +102,6 @@
         width: 1000px;
         margin: 0 auto;
         &__s-main{
-          // height: 350px;
-          // width: 1000px;
-          // margin: 0 auto;
           margin-bottom: 50px;
           display: flex;
           &__front{
@@ -249,9 +236,6 @@
           }
         }
         &__s-main2{
-          // height: 350px;
-          // width: 1000px;
-          // margin: 0 auto;
           margin-bottom: 50px;
           display: flex;
           &__db{
@@ -345,9 +329,6 @@
           }
         }
         &__s-main3{
-          // height: 350px;
-          // width: 1000px;
-          // margin: 0 auto;
           margin-bottom: 50px;
           display: flex;
           &__other-tools{
@@ -480,8 +461,6 @@
         width: 200px;
         font-size: 60px;
         margin: 0 auto;
-        // margin-top: 20px;
-        // padding-left: 40%;
       }
       &__p-main{
         height: 500px;
@@ -492,8 +471,6 @@
           height: 400px;
           width: 310px;
           padding: 10px;
-          // padding-top: 10px;
-          // margin-left: 60px;
           border: 1px solid #000;
           background-color: #ffffff;
           &__cs-title{
@@ -525,7 +502,6 @@
           height: 400px;
           width: 310px;
           padding: 10px;
-          // padding-top: 10px;
           margin-left: 100px;
           border: 1px solid #000;
           background-color: #ffffff;
@@ -557,7 +533,6 @@
           height: 400px;
           width: 310px;
           padding: 10px;
-          // padding-top: 10px;
           margin-left: 100px;
           border: 1px solid #000;
           background-color: #ffffff;
